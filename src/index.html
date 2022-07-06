@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <title>Esha Gupta</title>
+   
+    <meta name="description" content="Esha Gupta | Web Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <style>
+      * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+    </style>
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Esha Gupta</span>
+          <br />
+          Welcome to my portfolio page.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+        </p>
+      </div>
+    </section>
+    <!-- END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                Hi! I am Esha Gupta. I am pursing BE in Computer Science and Engineering from DSCE, Bangalore. 
+              </p>
+              <p class="about-wrapper__info-text">
+               My areas of interest include Competitive Coding, Web Development and Mobile Development.
+               I am a highly optimistic and hard-working person. 
+               To have a look at my Resume click here.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END About Section -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Project1 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">NeonSecret</h3>
+                <div>
+                  <p class="mb-4">
+                    ◦	An interactive end-to-end user friendly E-Commerce stationary website. 
+                  </p>
+                  <p class="mb-4">
+                    ◦	It provides various user interactive pages where the user can login and buy various stationary products l 
+                  </p>
+                  <p class="mb-4">
+                    ◦	Technologies used were HTML, CSS, BOOTSTRAP, JAVASCRIPT, PHP, and MySQL.                     
+                  </p>
+                </div>
+              
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Eshagupta0106/NeonSecret"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/NeonSecret1.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project1 -->
+
+          <!-- Project2 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Yelp-Camp</h3>
+                <div>
+                  <p class="mb-4">
+                    ◦	An interactive Website on CAMPGROUNDS
+                    ◦	Any person can register, login and add INFORMATION, PICTURES, RATING about the CAMPGROUND they visited
+                    ◦	Technologies used - HTML, CSS, JAVASCRIPT, BOOTSTRAP, MONGODB, NODEJS, EXPRESS                    
+                  </p>
+                  <p class="mb-4">
+                    ◦	Any person can register, login and add INFORMATION, PICTURES, RATING about the CAMPGROUND they visited
+                  </p>
+                  <p class="mb-4">
+                   ◦	Technologies used - HTML, CSS, JAVASCRIPT, BOOTSTRAP, MONGODB, NODEJS, EXPRESS                    
+                  </p>
+                </div>
+               
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Eshagupta0106/Yela-Camp"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                 
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Camp1.png"
+                    /> 
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- END Project2 -->
+
+
+           <!-- Project3 -->
+           <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Sort-Visualizer</h3>
+                <div>
+                  <p class="mb-4">
+                    o	An interactive website used to demonstrate various types of sorting techniques used in DS ALGO.
+                  </p>
+                  <p class="mb-4">
+                    o	The Speed of the demonstration can be adjusted as per the user wish.
+                  </p>
+                  <p class="mb-4">
+                    o	Technologies used are HTML, CSS, JAVASCRIPT and REACTJS.                    
+                  </p>
+                </div>
+              
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Eshagupta0106/sort-visualizer"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Sort4.jpeg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- END Project3 -->
+
+          <!-- Project4 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">MovieDom</h3>
+                <div>
+                  <p class="mb-4">
+                    ◦	Online Website for reviewing movies and personalized recommendations fined-tuned for your taste
+                  </p>
+                  <p class="mb-4">
+                    ◦	Collection of current popular trends and highly rated movies in various languages
+                  </p>
+                  <p class="mb-4">
+                    ◦	Consists of trailers, reviews and full movies and web series
+                  </p>
+                  <p class="mb-4">
+                    ◦	Technologies used were HTML,CSS, NodeJS, ReactJS                    
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Eshagupta0106/MovieDom"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/MovieDom1.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- END Project4 -->
+
+          <!-- Project5 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Tindog</h3>
+                <div>
+                  <p class="mb-4">
+                    ◦ Website for Dog Lovers that allow user to spend some quality time with the dog they see on our website and
+                       They like 
+                  </p>
+                  <p class="mb-4">
+                    ◦ Technologies used were HTML, CSS, and NodeJS
+                  </p>
+                </div>
+              
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Eshagupta0106/tindog"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Tindog1.jpeg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- END Project5 -->
+
+        </div>
+      </div>
+    </section>
+    <!-- END Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Write to me at</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:eshagupta0106@email.com"
+            ><i class="fa fa-envelope fa-inverse"></i></a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.instagram.com/_touch_the_perfection_/" target="_blank">
+            <i class="fa fa-instagram fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.linkedin.com/in/gupta-esha/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.facebook.com/eshagupta924/" target="_blank">
+            <i class="fa fa-facebook fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+       <p class="footer__text">
+          © 2021-
+          <a rel="noreferrer" href="https://github.com/Eshagupta0106" target="_blank"
+            >Esha Gupta</a
+          >
+        </p>
+
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
